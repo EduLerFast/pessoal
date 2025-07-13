@@ -1,15 +1,20 @@
-input=2
+input=9
 
-input2=3
+input2=5
+
+adicaoX=('')
+subtracaoX=('')
+multiplicacaoX=('')
+divisaoX=('')
 
 adicao=(input + input2)
-print(adicao)
+if adicaoX :print ('adicao:', adicao)
 
 subtracao=(input - input2)
-print(subtracao)
+if subtracaoX :print('subtracao:', subtracao)
 
 multiplicacao=(input * input2)
-print(multiplicacao)
+if multiplicacaoX :print('multiplicacao:', multiplicacao)
 
 divisao=(input / input2)
-print(divisao)
+if divisaoX :print('divisao:', divisao)
