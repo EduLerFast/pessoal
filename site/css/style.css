@@ -8,23 +8,25 @@ body{ background-color: rgb(0, 0, 0);}
         margin:auto;
 ;}
 
-#inicio{ width: 150px;
+#inicio{ width: 150px ; 
         height: 150px;
         ;margin: auto;; background-color:
-         blueviolet; border-style: solid;  width: 20%;margin:auto}
+        blueviolet; border-style: solid;  width: 20%;margin:auto ;min-width: 250px;}
+
+#escrita{margin: -14px 5.5cqmax  ; ;}
 
 
-#painel{ width: 1000px;
+#painel{ width: 53%;
         height: 500px;
         margin: auto;
-    background-color: palevioletred; border-style:solid; color: #df07df;}
+        max-width: auto;
+        background-color: palevioletred;border-radius: 20px; border-style:solid; color: #df07df;min-width: 400px}
 
 
+#item1{height:150px;width: 150px;
+       background-color: white ;
 
-
-#items{height: 150px;width: 150px;
-        background: url("img/ivfx.png") no-repeat center center;
-        background-size: contain; ;}
+}
 
 .ivfx{
         background: url("img/ivfx.png"); 
